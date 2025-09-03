@@ -26,7 +26,7 @@ This tutorial covers the following Python list operations:
 1. Clone this repository:
    ```bash
    git clone https://github.com/NJAU-NICKSON/List-Manipulation-Using-Python.git
-   cd python-list-operations
+   cd python-List-Manipulation-Using-Python
    ```
 
 2. Run the script:
@@ -61,7 +61,7 @@ my_list.sort()
 index = my_list.index(30)
 ```
 
-## 🎯 Expected Output
+## Expected Output
 
 When you run the script, you'll see the list transformation at each step:
 
@@ -75,15 +75,17 @@ When you run the script, you'll see the list transformation at each step:
 7. Index of value 30: 3
 ```
 
-## Key Methods Explained
-Key Methods Explained
-Method	Description	Example
-append()	Adds a single element to the end	list.append(item)
-insert()	Inserts element at specific index	list.insert(index, item)
-extend()	Adds all elements from another iterable	list.extend(iterable)
-pop()	Removes and returns element (last by default)	list.pop() or list.pop(index)
-sort()	Sorts the list in place	list.sort()
-index()	Returns the index of first occurrence	list.index(item)
+## 🔧 Key Methods Explained
+
+| Method | Description | Example |
+|--------|-------------|---------|
+| `append()` | Adds a single element to the end | `list.append(item)` |
+| `insert()` | Inserts element at specific index | `list.insert(index, item)` |
+| `extend()` | Adds all elements from another iterable | `list.extend(iterable)` |
+| `pop()` | Removes and returns element (last by default) | `list.pop()` or `list.pop(index)` |
+| `sort()` | Sorts the list in place | `list.sort()` |
+| `index()` | Returns the index of first occurrence | `list.index(item)` |
+
 
 ## Contributing
 
@@ -91,7 +93,7 @@ Feel free to fork this project and submit pull requests for improvements or addi
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available for all.
 
 ## Author
 
